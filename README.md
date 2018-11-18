@@ -10,6 +10,8 @@ Para solucionar éste problema se implementa el patrón de diseño Flyweight de 
 
 4. Se crea una fábrica que será la encargada de crear los rectángulos (clase Fabrica).
 
+5. Todo se ejecuta en la clase principal (clase Main).
+
 Luego, en el momento de ejecución, el proceso se hace de la siguiente manera: 
 Se invoca a la clase fábrica para crear los rectángulos; Ésta se asegura de que ese "tipo" de rectángulo (es decir, un rectángulo con esas medidas) ya exista y, en caso contrario, lo crea; Luego crea un rectángulo con sus datos distintivos y le agrega una instancia al "tipo" de rectángulo que está guardado en el contenedor.
 
